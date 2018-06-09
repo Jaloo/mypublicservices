@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  mycatalogmicroservices:
+    image: mycatalogmicroservices
+    build:
+      context: .
+      dockerfile: MyCatalogMicroservices/Dockerfile
